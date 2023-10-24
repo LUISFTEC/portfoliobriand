@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Estilo para la sección Acerca de mí */
 #sobremi {
     background:linear-gradient(rgba(5, 7, 12, 0.75),rgba(5, 7, 12, 0.75)),
@@ -116,3 +117,63 @@
     margin-top: 10px; /* Reduce el margen superior del botón */
   }
 }
+=======
+/* Estilo para la sección Acerca de mí */
+#sobremi {
+    background:linear-gradient(rgba(5, 7, 12, 0.75),rgba(5, 7, 12, 0.75)),
+   url('img/fondo2.jpg');
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center; /* Centra verticalmente el contenido */
+  }
+  
+  #sobremi .contenedor-foto img {
+    max-width: 400px;
+    height: auto;
+    display: block;
+    border-radius: 50%; /* Crea un borde circular para la imagen */
+    margin: 0 auto; 
+  }
+  .sobremi {
+    text-align: center; /* Alinea el texto al centro */
+  }
+  .titulo-seccion {
+    font-size: 50px;
+    font-weight: bold;
+  }
+  
+  #sobremi .sobremi p {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 80px;
+    text-align: justify;
+  }
+  
+  #sobremi .sobremi a {
+  color: #fff;
+  padding: 10px 20px;
+  display: inline-block;
+  border: 2px solid #007BFF;
+  text-transform: uppercase;
+  border-radius: 3px;
+  letter-spacing: 7px;
+  font-weight: bold;
+  text-decoration: none;
+  overflow: hidden;
+  transition: background-color 0.3s;
+  }
+  
+  #sobremi .sobremi a:hover {
+    background-color: #0095ff;
+    color: #fff;
+  }
+  
+
+>>>>>>> 5048f4450e611c3ab089d78b80385f88f0c1b8ee
