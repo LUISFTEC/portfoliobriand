@@ -1,0 +1,69 @@
+/* Estilos para la sección de inicio */
+#inicio {
+  background:linear-gradient(rgba(5, 7, 12, 0.75),rgba(5, 7, 12, 0.75)),
+   url('img/fondo.jpg');
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Centra verticalmente el contenido */
+  
+}
+
+#inicio .container {
+  display: flex;
+
+}
+.row p {
+  /* Estilos para los elementos <p> dentro de la clase .row */
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  margin: 10px 0;
+}
+
+
+#inicio h1 {
+  font-size: 90px;
+  font-weight: bold;
+}
+
+#inicio .btn {
+  position: relative;
+  color: #fff;
+  padding: 10px 20px;
+  display: inline-block;
+  border: 2px solid #007BFF;
+  text-transform: uppercase;
+  border-radius: 3px;
+  letter-spacing: 7px;
+  font-weight: bold;
+  text-decoration: none;
+  overflow: hidden;
+  transition: background-color 0.3s;
+}
+
+.horizontal-button {
+  text-align: center;
+}
+
+#inicio .btn:hover {
+  background-color: #0056b3; /* Cambia el color al hacer hover */
+}
+
+@media (max-width: 1000px){
+  #inicio h1 {
+    font-size: 80px;
+    font-weight: bold;
+  }
+  .row p {
+    /* Estilos para los elementos <p> dentro de la clase .row */
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    margin: 10px 0;
+  }
+}
