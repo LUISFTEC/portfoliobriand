@@ -1,0 +1,93 @@
+#servicios {
+  background:linear-gradient(rgba(5, 7, 12, 0.75),rgba(5, 7, 12, 0.75)),
+   url('img/fondo2.jpg');
+  background-size: cover;
+  height: 100%; /* Asegura que el contenedor tome la altura completa */
+  min-height: 100vh; /* Establece una altura mínima en vista vertical */
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  display: grid;
+  justify-content: center;
+  align-items: center; /* Centra verticalmente el contenido */
+  }
+  
+  .servicio {
+    text-align: center; /* Alineación del contenido al centro */
+    padding: 20px; /* Espaciado interno del servicio */
+    border: 1px solid #ccc; /* Borde para cada servicio */
+    border-radius: 5px; /* Borde redondeado */
+    margin-bottom: 20px; /* Espacio entre servicios */
+  }
+  
+  .servicio img {
+    max-width: 100%; /* Asegura que la imagen se ajuste al ancho del servicio */
+  }
+  
+  .servicio h3 {
+    font-size: 24px; /* Tamaño de fuente del título del servicio */
+    margin-top: 10px; /* Espaciado superior */
+  }
+  
+  .servicio p {
+    font-size: 16px; /* Tamaño de fuente del texto de descripción */
+    margin-top: 10px; /* Espaciado superior */
+  }
+  
+  .servicio a {
+    /* Hace que el botón se muestre en línea */
+    color: #fff;
+    padding: 10px 20px;
+    display: inline-block;
+    border: 2px solid #007BFF;
+    text-transform: uppercase;
+    border-radius: 3px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    text-decoration: none;
+    overflow: hidden;
+    transition: background-color 0.3s;
+  }
+
+  .servicio a:hover {
+    background-color: #0056b3; /* Cambia el color de fondo al hacer clic */
+  }
+
+  /* Estilos para el título "Servicios" */
+#servicios h2 {
+    font-size: 28px; /* Tamaño de fuente */
+    font-weight: bold; /* Peso de fuente en negrita */
+    margin-bottom: 20px; /* Margen inferior para separarlo de los servicios */
+    color: #ffffff; /* Color de texto */
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    font-weight: bold;
+    
+  }
+  /* Estilo para el efecto hover */
+#servicios h2:hover {
+    color: #000; /* Cambia el color al hacer hover en el enlace */
+    transition: .5s;
+  }
+  
+  @media (max-width: 1000px){
+    #servicios h2 {
+        margin-top: 70px; /* Agrega un margen superior en modo responsivo */
+    }
+  }
+  @media (max-width: 952px){
+    
+  }
+  @media (max-width: 858px){
+    
+   
+  }
+  @media (max-width: 780px){
+    
+   
+  }
+  @media (max-width: 550px){
+    
+   
+  }
+  
