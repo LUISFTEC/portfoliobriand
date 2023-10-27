@@ -50,8 +50,6 @@ nav ul li a{
     text-decoration: none; /* Elimina el subrayado de los enlaces */
 }
 
-
-
 nav ul li a.active {
     color: #ffffff; /* Cambia el color al hacer clic en el enlace */
 }
@@ -60,7 +58,6 @@ nav ul li a:hover {
     color: #000; /* Cambia el color al hacer hover en el enlace */
     transition: .5s;
 }
-
 
 .checkbtn{
     font-size: 30px;
@@ -74,7 +71,6 @@ nav ul li a:hover {
 #check{
     display: none;
 }
-
 
 @keyframes colorChange {
     0% {
