@@ -1,0 +1,94 @@
+/* Estilo para el título de la sección BLOG */
+
+#blog {
+    background:linear-gradient(rgba(5, 7, 12, 0.75),rgba(5, 7, 12, 0.75)),
+   url('img/fondo2.jpg');
+  background-size: cover;
+  height: 100%; /* Asegura que el contenedor tome la altura completa */
+  min-height: 100vh; /* Establece una altura mínima en vista vertical */
+  background-position: center;
+  color: #fff;
+  display: flex ;
+  grid-template-columns: auto;
+  justify-content: center;
+  text-align: center;
+  align-items: center; /* Centra verticalmente el contenido */
+}
+
+/* Estilo para la etiqueta <img> */
+img {
+    width: 300px; /* Ancho de la imagen */
+    margin: 10px; /* Margen alrededor de la imagen */
+    border: 1px solid #ccc; /* Borde alrededor de la imagen */
+}
+ 
+/* Estilo para las entradas del BLOG */
+.entrada {
+    margin-top: 10px; /* Margen superior de 10px */
+    margin: 10px 30px; /* Margen automático en los lados izquierdo y derecho, centrará horizontalmente */
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    height: auto; /* Establece un alto fijo de 200px */
+    width: 50%; /* Modifica el ancho de la caja, ajusta el valor según lo que desees */
+    max-width:700px; /* Establece un ancho máximo para la caja */
+}
+
+/* Estilo para los títulos de las entradas */
+.entrada h3 {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Estilo para el texto de las entradas */
+.entrada p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Estilo para los enlaces "Leer más" */
+.entrada a {
+    color: #0078d4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.entrada a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 1000px){
+    #blog {
+        flex-direction: column; /* Cambia a una columna en pantallas pequeñas */
+        align-items: center; /* Centra verticalmente las entradas en modo vertical */
+    }
+    .entrada {
+        margin-top:80px; /* Aumentamos el margen superior a 20px */
+        
+    }
+  
+  }
+  @media (max-width: 952px){
+   
+  
+  }
+  /* Estilos para pantallas más pequeñas (ejemplo: dispositivos móviles) */
+  @media (max-width: 858px) {
+    
+  }
+  @media (max-width: 768px) {
+    #blog {
+        flex-direction: column; /* Cambia a una columna en pantallas pequeñas */
+        align-items: center; /* Centra verticalmente las entradas en modo vertical */
+    }
+    .entrada {
+        margin-top: 80px; /* Aumentamos el margen superior a 20px */
+        
+    }
+    
+}
+  @media (max-width: 450px){
+    
+  }
+  
+
