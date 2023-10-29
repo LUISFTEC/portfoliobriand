@@ -1,6 +1,6 @@
 #servicios {
   background:linear-gradient(rgba(5, 7, 12, 0.75),rgba(5, 7, 12, 0.75)),
-   url('img/fondo2.jpg');
+   url('img/fondo3.jpg');
   background-size: cover;
   height: 100%; /* Asegura que el contenedor tome la altura completa */
   min-height: 100vh; /* Establece una altura mínima en vista vertical */

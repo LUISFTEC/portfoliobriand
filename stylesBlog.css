@@ -2,7 +2,7 @@
 
 #blog {
     background:linear-gradient(rgba(5, 7, 12, 0.75),rgba(5, 7, 12, 0.75)),
-   url('img/fondo2.jpg');
+   url('img/fondo4.jpg');
   background-size: cover;
   height: 100%; /* Asegura que el contenedor tome la altura completa */
   min-height: 100vh; /* Establece una altura mínima en vista vertical */
@@ -16,10 +16,17 @@
 }
 
 /* Estilo para la etiqueta <img> */
-img {
+.entrada img {
     width: 300px; /* Ancho de la imagen */
-    margin: 10px; /* Margen alrededor de la imagen */
-    border: 1px solid #ccc; /* Borde alrededor de la imagen */
+    margin: 30px; /* Margen alrededor de la imagen */
+    border-radius: 10px;
+}
+
+/* Estilo específico para el video en la entrada 2 */
+.entrada video {
+    width: 430px;
+    margin: 30px;
+    border-radius: 10px; /* Agrega bordes redondeados si lo deseas */
 }
  
 /* Estilo para las entradas del BLOG */
@@ -53,6 +60,7 @@ img {
     font-weight: bold;
 }
 
+
 .entrada a:hover {
     text-decoration: underline;
 }
@@ -70,6 +78,21 @@ img {
   }
   @media (max-width: 952px){
    
+  /* Estilo para imágenes responsivas */
+.entrada img {
+    max-width: 100%; /* Hace que la imagen no sea más ancha que su contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Estilo para videos responsivos */
+  .entrada video {
+    max-width: 100%; /* Hace que el video no sea más ancho que su contenedor */
+    height: auto; /* Mantiene la proporción del video */
+    display: block;
+    margin: 0 auto;
+  }
   
   }
   /* Estilos para pantallas más pequeñas (ejemplo: dispositivos móviles) */
